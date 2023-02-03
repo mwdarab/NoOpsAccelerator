@@ -80,11 +80,11 @@ A detailed and complete list of prerequisites is documented in the [wiki](https:
 
 #### Steps
 
-1. Clone this repository and change directory to the `/src/bicep/platforms/lz-platform-scca-hub-3spoke` directory
+1. Clone this repository and change directory to the `/src/archive/bicep/platforms/lz-platform-scca-hub-3spoke` directory
 
     ```plaintext
     git clone https://github.com/Azure/NoOpsAccelerator.git
-    cd /src/bicep/platforms/lz-platform-scca-hub-3spoke
+    cd /src/archive/bicep/platforms/lz-platform-scca-hub-3spoke
     ```
 
 1. Connect to your Azure Account and check the current context is for the subscription, tenant and environment you are deploying to and make changes where necessary.
@@ -94,7 +94,7 @@ A detailed and complete list of prerequisites is documented in the [wiki](https:
     az account show
     ```
 
-1. Open the `/src/bicep/platforms/lz-platform-scca-hub-3spoke/parameters/deploy.parameters.json` file and replace the following parameters:
+1. Open the `/src/archive/bicep/platforms/lz-platform-scca-hub-3spoke/parameters/deploy.parameters.json` file and replace the following parameters:
     * `"subscriptionId": "<<subscriptionId>>"` with your SubscriptionId. Ensure all instances of this parameter are changed in this file.
     
     > **Note**: Multiple subscriptions may be configured (*i.e.*, to have separate subscriptions for each 'tier' in the MLZ architecture) in the `parameters/deploy.parameters.json` but a single subscription is used for this quickstart.
