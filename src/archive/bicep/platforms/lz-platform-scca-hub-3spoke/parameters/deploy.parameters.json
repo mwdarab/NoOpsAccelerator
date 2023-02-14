@@ -20,7 +20,7 @@
     },
     "parHub": {
       "value": {
-        "subscriptionId": "<<subscriptionId>>",
+        "subscriptionId": "4d283128-bc4e-4990-a014-21cac82e5de0",
         "virtualNetworkAddressPrefix": "10.0.100.0/24",
         "subnetAddressPrefix": "10.0.100.128/27",
         "peerToSpokeVirtualNetwork": true,
@@ -60,7 +60,7 @@
     },
     "parIdentitySpoke": {
       "value": {
-        "subscriptionId": "<<subscriptionId>>",
+        "subscriptionId": "4d283128-bc4e-4990-a014-21cac82e5de0",
         "virtualNetworkAddressPrefix": "10.0.110.0/26",
         "subnetAddressPrefix": "10.0.110.0/27",
         "sourceAddressPrefixes": [
@@ -122,7 +122,7 @@
     },
     "parOperationsSpoke": {
       "value": {
-        "subscriptionId": "<<subscriptionId>>",
+        "subscriptionId": "4d283128-bc4e-4990-a014-21cac82e5de0",
         "virtualNetworkAddressPrefix": "10.0.115.0/26",
         "subnetAddressPrefix": "10.0.115.0/27",
         "sourceAddressPrefixes": [
@@ -184,7 +184,7 @@
     },
     "parSharedServicesSpoke": {
       "value": {
-        "subscriptionId": "<<subscriptionId>>",
+        "subscriptionId": "4d283128-bc4e-4990-a014-21cac82e5de0",
         "virtualNetworkAddressPrefix": "10.0.120.0/26",
         "subnetAddressPrefix": "10.0.120.0/27",
         "sourceAddressPrefixes": [

@@ -194,8 +194,7 @@ var identityType = systemAssignedIdentity ? (!empty(userAssignedIdentities) ? 'S
 
 var identity = identityType != 'None' ? {
   type: identityType
-  userAssignedIdentities: !empty(userAssignedIdentities) ? userAssignedIdentities : {}
-} : {}
+  userAssignedIdentities: !empty(userAssignedIdentities) ? userAssignedIdentities : null} : null
 
 resource managedInstance 'Microsoft.Sql/managedInstances@2021-05-01-preview' = {
   name: name

@@ -332,8 +332,7 @@ var identityType = systemAssignedIdentity ? (!empty(userAssignedIdentities) ? 'S
 
 var identity = identityType != 'None' ? {
   type: identityType
-  userAssignedIdentities: !empty(userAssignedIdentities) ? userAssignedIdentities : {}
-} : {}
+  userAssignedIdentities: !empty(userAssignedIdentities) ? userAssignedIdentities : null} : null
 
 module vm_nic 'includes/az.com.virtual.machine.network.Interface.bicep' = [for (nicConfiguration, index) in nicConfigurations: {
   name: '${uniqueString(deployment().name, location)}-VM-Nic-${index}'

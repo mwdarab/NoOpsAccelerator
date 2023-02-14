@@ -81,8 +81,7 @@ var identityType = systemAssignedIdentity ? (!empty(userAssignedIdentities) ? 'S
 
 var identity = identityType != 'None' ? {
   type: identityType
-  userAssignedIdentities: !empty(userAssignedIdentities) ? userAssignedIdentities : {}
-} : {}
+  userAssignedIdentities: !empty(userAssignedIdentities) ? userAssignedIdentities : null} : null
 
 resource staticSite 'Microsoft.Web/staticSites@2021-03-01' = {
   name: name
